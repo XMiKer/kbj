@@ -17,3 +17,4 @@ eureka:
     serviceUrl:
       #配置服务中心(可配置多个,用逗号隔开)
       defaultZone: http://localhost:8080/eureka/
+foo: test weather server can get config from github
