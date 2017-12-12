@@ -1,4 +1,4 @@
-foo: v1.0.0 pro
+foo: first config
 #spring配置
 spring:
   #数据源配置
