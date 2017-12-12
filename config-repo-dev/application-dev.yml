@@ -3,7 +3,7 @@ foo: v1.0 changed
 spring:
   #数据源配置
   datasource:
-    url: jdbc:mysql://192.168.2.121:3306/test?useUnicode=true&characterEncoding=utf-8
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf-8
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
