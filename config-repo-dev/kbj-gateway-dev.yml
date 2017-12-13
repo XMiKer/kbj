@@ -1,0 +1,88 @@
+#spring配置
+spring:
+  #数据源配置
+  datasource:
+    url: jdbc:mysql://192.168.2.121:3306/test?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+  #缓存服务器配置
+  cache:
+    type: redis
+
+  redis:
+    database: 1
+    host: localhost
+    pool:
+      max-active: 20
+    password: 123456
+#模版缓存配置
+  thymeleaf:
+    cache: false
+  mvc:
+    view:
+      suffix: .html
+#API网关配置
+zuul:
+  #路由配置
+  routes:
+      sso: #登录认证服务
+        #响应的路径
+        path: /pay/**
+        #敏感头信息
+        sensitiveHeaders:
+        #重定向到的服务（根据服务id名称从注册中心获取服务地址）
+        serviceId:  kbj-pay
+      producer: #生产者服务
+        #响应的路径
+        path: /search/**
+        sensitiveHeaders:
+        #重定向到的服务（根据服务id名称从注册中心获取服务地址）
+        serviceId:  kbj-search
+    #添加代理头
+  add-proxy-headers: true
+
+#日志设置
+logging:
+  level:
+    org.springframework: error
+    org.hibernate: info
+    com.kbj.kbj_gateway.sso: debug
+#mybatis 配置
+mybatis:
+  type-aliases-package: com.kbj.kbj_gateway.*.domain
+  mapper-locations: classpath:mappers/*.xml
+
+  configuration:
+     #配置项：开启下划线到驼峰的自动转换. 作用：将数据库字段根据驼峰规则自动注入到对象属性。
+     map-underscore-to-camel-case: true
+#mappers 多个接口时逗号隔开
+mapper:
+  mappers: com.lf.util.MyMapper
+  not-empty: false
+  identity: MYSQL
+
+#pagehelper
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count,countSql
+#发送邮件配置
+custom:
+  mailConfig:
+    #服务器
+    mailHost: smtp.qq.com
+    #端口号
+    mailPort: 587
+    #邮箱账号
+    mailUsername: 1289251150@qq.com
+    #邮箱授权码
+    mailPassword: amlglyqqpzamjdde
+    #时间延迟
+    mailTimeout: 25000
+    #发送人
+    mailFrom: 1289251150@qq.com
+    #发件人名字
+    mailPersonal: 阿拉斯加他哥
+#  83551a3cb81b13eb8436f99a90823898
