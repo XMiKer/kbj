@@ -15,7 +15,7 @@ spring:
     host: localhost
     pool:
       max-active: 20
-    password: '{cipher}AQCRawinUShPjCXbDg6Q4uC5mlGsnn3pxWJEJrCykLVCfWBFtlVK+y3pfcUXIilPWBNz11G/jufXoL7z3ZM2fNI8mDbuRnVzqB90291Wqq83zLbridEAqhu5qKun+gxl8E/j0WfzNyLWZJokQaIwKMpFzsdmJcS4knwuvaSn/HA2c6XMADPpgGMwG/8bku4V4rvTurUF9c7Vrs2+nOPNj7bmJq8tY+y5hd/TxnrfwN0lpN1jaRJHJWLuknF72mNa6v8QbVc1s7C9ZJxlofVURal4zlAQ0UdxoQsXDDKndFRFmPr8T/HmKj93dsrL7sCV0YTcEpI6u3jfxSUE7eeLg8znGhv9pZg6gIaJ2vZDeMz/OKMugJ4PC5j7qvnGW5KWVYw='
+    password: '{cipher}AQCVh2Kfpe+ey5qNPAlS5/gTLCliSBynrN0cP87o+b3d9EkHZTT2Z0zj6fltbhyTsB54b3rFAwEegmaMSlGdgtS1A9fre3PaE5G1U8an4vfx6xFIWH2YC5zPT76n31E21XoW4rUPrC/GFtAceDwRv18gBaVgqlg2KbUG/04nxds9z5jfqKMcphKF5u/jz2aWuDoKLfOSpbQv41MfHAPoG3BTGY/M9eTCyF3uzMzf//kP9Q+h7FxDmZeMgb8YpOqnVQL8uikRbLsDya6rd4lnz0X+HcHAD7ylDRZ2zWdcX7WGGrDdvLKU4cRFicMQ4wDhWsuH67jbwGg91KVjXhZv6XLfymY48X8DRxcZX+9nlzTwj8il+ccLixf8UYnJ4pfHZZM='
 #模版缓存配置
   thymeleaf:
     cache: false
