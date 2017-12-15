@@ -15,6 +15,7 @@ spring:
     host: localhost
     pool:
       max-active: 20
+    password: '{cipher}AQAnDx5qgBWK8aypN+N7sHph8lLJCvkqjkgeta3MYuwulAVHbKPpwx1OwUatVdR4R0g7/jnzlXCXNTXoXAQx+7oxV7gJKI+eblc4doY1OOh5i88iBEkE4mg+s3L15+Bc3d4K/vB9LPEO2BmPoI5sXZ86Ib+fFrluXum5vCq2ef+wMz0Xk4NJdMZPQ1E0UsdObjd25AkmG3XGLX8CHwco12tz/uu9Njzp2b6lE1QEfUBoT4RIX77UnYfmKE3K4uYGr4HG9318OamtTN7UcaJQ8AEfL+JAnU6UBlYJcurpAoEaqd7MFhhIeSV5CtoCfT233TG4DoNbuPrJkmrZyss0dcMFzLMZZoaBVbziV9vAzYsXCKS/eb/+zapQYETRrz5JUQE='
 #模版缓存配置
   thymeleaf:
     cache: false
