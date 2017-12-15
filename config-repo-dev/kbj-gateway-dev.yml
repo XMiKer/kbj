@@ -4,7 +4,7 @@ spring:
   datasource:
     url: jdbc:mysql://192.168.2.121:3306/test?useUnicode=true&characterEncoding=utf-8
     username: root
-    password: '{cipher}AQB+8KRQtCvDU8zySE46CqXrYgMya5cwMJOpYaF2JMTcu7zH1opcuoPVh0PONNTborG828Gl0xpyAjhkCj5VdzjiU2hLKPxSDwGjB+5G4dvmZQBvMQBEgcBkczQbGBHPVWcjKODxSdq799g3Q9DT692v0ciOJ+vjUWO2WKc7MmJHiYJNT0rbZvKF6iOkhz0yr+WA9VqMSSKylTX2TUHIyDn7O+fVAfqQQGOO5fpbex6SAfm84ehlrJdho661TXlG1HtkKksGrjm9LVPz/kX2VJOdzt3ui8tHQ4VK5H0s6XOvVCgzbyUZJSzJQAFEjwlJUmJ4HymcUQq0qnXIiI3LObyMgTBub3B7UJYW/SsUJZJ8LDpWV1elmQ1XH6033ng7UzI='
+    password: '{cipher}AQBcYWOru6mo6V7cm/rJFeIj/ezr+zbt1cQt0GW4yzZYXwD7tqbKsbikpX9HGQqJEjTNRpU7fO3C6olqRyb6pD3yrb5X8jNVhaYATB+50wl0Vyck18uBIWu97LkrScz32Ct/nwKQE3Oa04GTelwHcAILJO2LmKhUoK9SJK49MkGx5PMlIgRU9GGd5iESABHHtYsXN3JyN78kXBSKgljJM7VTxmvWLO0unIoDlk9WRDEWogElkB4M0BnTzFZtky7gedZ2uvATInlOAJ7gUAYUV0BMlST31kExEsrNtt5Qyb9zTMqc2Je+c9YNj9RClzuiquMBR53EHWeJfLVu2lMhiFxCRhwLH12ahHnp0wxEcUMlIHcH8Ldl7peQfTAszlUoHhw='
     driver-class-name: com.mysql.jdbc.Driver
   #缓存服务器配置
   cache:
@@ -15,7 +15,7 @@ spring:
     host: localhost
     pool:
       max-active: 20
-    password: '{cipher}AQAnDx5qgBWK8aypN+N7sHph8lLJCvkqjkgeta3MYuwulAVHbKPpwx1OwUatVdR4R0g7/jnzlXCXNTXoXAQx+7oxV7gJKI+eblc4doY1OOh5i88iBEkE4mg+s3L15+Bc3d4K/vB9LPEO2BmPoI5sXZ86Ib+fFrluXum5vCq2ef+wMz0Xk4NJdMZPQ1E0UsdObjd25AkmG3XGLX8CHwco12tz/uu9Njzp2b6lE1QEfUBoT4RIX77UnYfmKE3K4uYGr4HG9318OamtTN7UcaJQ8AEfL+JAnU6UBlYJcurpAoEaqd7MFhhIeSV5CtoCfT233TG4DoNbuPrJkmrZyss0dcMFzLMZZoaBVbziV9vAzYsXCKS/eb/+zapQYETRrz5JUQE='
+    password: '{cipher}AQCwyCY8OUjnCS0t4dHw9hhI43CRL6IPK4I1hOP2vV+RJoGoNTyefyXV244Qr3W8zYUuxeLYjRVZphZ/5td6vj/Pc3qF/DoK4dGW2FojPerxRYPb7g/9+zQCu7kBVwqbWLACKFJrI12UToYEWXOROg2yi6Yttn898oEqZYoySy3q0t2qnP21UpNhTyIbJ52V5374t/NTc3d57ERM1zeZckVzSTC8JP6zK/0vJ3kvSTk9cbgZi8dqQ/ErkMBQxmBcMKw8CDIt9f7h2GP/SiqwL13PYEsBTcQNEJzaer6H5vxgJalZY2BU5SegUzIMCgP6pQGwqIN/qGTRLTsEKU6Xp0YfVcdwEmYP5wRLljkGw6p+u67yGYHo7tp6CgFVCTrhiT8='
 #模版缓存配置
   thymeleaf:
     cache: false
@@ -78,7 +78,7 @@ custom:
     #邮箱账号
     mailUsername: 1289251150@qq.com
     #邮箱授权码
-    mailPassword: '{cipher}AQCB1XsBdCEmecV6EoYD+ZPMmhop69Bx+2z0oddePU46JzVR6Ehia5nmWyRsIqGBN3n5DWIQbqCulaDtQLYxwB0K6HF5q9zCJI8bsG7MBHlrdUZanEh/JBsv8RkqMVoofOML/66oTyKWDI66ehiuJ862s2x+q9J5K54z+UPGcKavsp9Gp2mqxVbMF0aYSKJskffLoafv57sHAOQw2g7AY/wOCrhIladYn5bfMem6Tv22V3wcaEX/vDAeLkg9J+9nBuGCAEMGOJrjCxgg6vHltOV9W7PC2+FyzKe0CEK0fOqAMNQUMndJc7ZSwenLAOc3GtLjBEKImiXE5jBnuQ6SoeYLQZLfKxNO/RGKiNN28Cw98dnREcM7wHlIjuFEPy/byijduYH9/GrF/gIf6/dOpE3h'
+    mailPassword: '{cipher}AQCYe6J4xZ0gaCsQvv1ESlGHfQnE6/ERPV+ZtCKohEJX0yE6ohT1E5c9swa/ScfTk5Sh9opLqpPpZw8ZEvduHVvUiWBxvwcReoQh6fdOV/aIgcbTNpU75+kb0ZX8igfAxHf42PFxSyXMlGU2zUETiNnOy1ul6e0rO/6wFbxLh7zw6nlzgiPv0QiYYgN7rG8tRGL0l3oVVTsLusdSLo9y+sDrrW8tlv6jCWP8ys2GySfN0YaKfP27AECezhgzXc9Zx/+1p61aNPmJFC/qYrzCNV9AdesO33yhoMqJ34fRtHn57cbz6oBFkJL1eP8SzPj+PIUD7nKhm9PKkDwuBor7maVgH2q9wMAbQ7LU6WUxRpC1G9Sf69w3xTX0UtQ4gM9crVR/jDKdSKfS7Od+cjl53Ue5'
     #时间延迟
     mailTimeout: 25000
     #发送人
