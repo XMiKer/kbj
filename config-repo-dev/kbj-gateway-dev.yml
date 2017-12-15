@@ -4,7 +4,7 @@ spring:
   datasource:
     url: jdbc:mysql://192.168.2.121:3306/test?useUnicode=true&characterEncoding=utf-8
     username: root
-    password: root
+    password: '{cipher}AQB+8KRQtCvDU8zySE46CqXrYgMya5cwMJOpYaF2JMTcu7zH1opcuoPVh0PONNTborG828Gl0xpyAjhkCj5VdzjiU2hLKPxSDwGjB+5G4dvmZQBvMQBEgcBkczQbGBHPVWcjKODxSdq799g3Q9DT692v0ciOJ+vjUWO2WKc7MmJHiYJNT0rbZvKF6iOkhz0yr+WA9VqMSSKylTX2TUHIyDn7O+fVAfqQQGOO5fpbex6SAfm84ehlrJdho661TXlG1HtkKksGrjm9LVPz/kX2VJOdzt3ui8tHQ4VK5H0s6XOvVCgzbyUZJSzJQAFEjwlJUmJ4HymcUQq0qnXIiI3LObyMgTBub3B7UJYW/SsUJZJ8LDpWV1elmQ1XH6033ng7UzI='
     driver-class-name: com.mysql.jdbc.Driver
   #缓存服务器配置
   cache:
@@ -15,7 +15,7 @@ spring:
     host: localhost
     pool:
       max-active: 20
-    password: 123456
+    password: '{cipher}AQB5X5zq7Yip6mMr5jecpxtR9boVTWQcRrSNjqR0WSoCgCFVPNDCFwmXdYC+AvZgOdb6At7OyDWTqOpMCeQE/t8ZBsHxImrHfPANcF6Mx1rkCC2UDfd7jXXk2nQ9/UHytla0/CICyUg9rJEU2qAW6GjysrZc0dx5kV3DR2TFEXsaVzOeKD6KkugNqVHqG1fTCJFOQut8+C1pvjrCHuivfwxATwS/vODrpRR+Z+yrzn48glvNJ5FatxAetRANQvPGjeBni1FoIZU7KGyakXNhPcuWPy0GgrU3b8CzBt6tnj8d8WmErcvhBOhppGybWNeZ8BxBGuoSQySLWSVDCmumDb3yxKkeejYmzuwOSmlNhApdkN9MRgpU0rk/mqOKwiPannA='
 #模版缓存配置
   thymeleaf:
     cache: false
@@ -78,7 +78,7 @@ custom:
     #邮箱账号
     mailUsername: 1289251150@qq.com
     #邮箱授权码
-    mailPassword: amlglyqqpzamjdde
+    mailPassword: '{cipher}AQCB1XsBdCEmecV6EoYD+ZPMmhop69Bx+2z0oddePU46JzVR6Ehia5nmWyRsIqGBN3n5DWIQbqCulaDtQLYxwB0K6HF5q9zCJI8bsG7MBHlrdUZanEh/JBsv8RkqMVoofOML/66oTyKWDI66ehiuJ862s2x+q9J5K54z+UPGcKavsp9Gp2mqxVbMF0aYSKJskffLoafv57sHAOQw2g7AY/wOCrhIladYn5bfMem6Tv22V3wcaEX/vDAeLkg9J+9nBuGCAEMGOJrjCxgg6vHltOV9W7PC2+FyzKe0CEK0fOqAMNQUMndJc7ZSwenLAOc3GtLjBEKImiXE5jBnuQ6SoeYLQZLfKxNO/RGKiNN28Cw98dnREcM7wHlIjuFEPy/byijduYH9/GrF/gIf6/dOpE3h'
     #时间延迟
     mailTimeout: 25000
     #发送人
